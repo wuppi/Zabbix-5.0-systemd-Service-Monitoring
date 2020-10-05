@@ -45,6 +45,6 @@ Start the service again
 
 and receive the email short after with a resolved- information.
 
-Please note, this is my first template and it is not the greatest you could imagine. However, I was looking for this and I couldn't find working solutions in the net.
+Please note, this is my first template and it is not the greatest you could imagine. However, I was looking for this and I couldn't find working solutions in the net os I thought it might save you some time.
 
 Have fun.
