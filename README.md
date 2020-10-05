@@ -35,13 +35,13 @@ After that, please assign the template to the host(s) you desire to monitor.
 
 In order to check the template, simply stop the systemd service on the client
 
-# systemctl stop <service>
+# systemctl stop &lt;service<&gt;
 
 After a while you should receive an alert.
 
 Start the service again
 
-# systemctl start <service>
+# systemctl start &lt;service&gt;
 
 and receive the email short after with a resolved- information.
 
