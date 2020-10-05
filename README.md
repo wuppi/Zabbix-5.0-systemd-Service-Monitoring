@@ -21,12 +21,12 @@ To do so, please open the XML-File with your prefered editor and replace all occ
 
 The "mission critial part" is the correct naming of the service. In order to check this, please check upfront on a server console with
 
-# zabbix_get -s <client-ip> -k systemd.unit.info["<servicename>",SubState]
+# zabbix_get -s &lt;client-ip&gt; -k systemd.unit.info&lsqb;"&lt;servicename&gt;",SubState&rsqb;
 with <client-ip> being the ip or address of your client running the systemd-Service and <servicename> being the service name of the service to be monitored.
 
 Watch out: My service is called primus while the required service name is primus.service
 sample (not real domain  xyz.de)
-zabbix_get -s xyz.de -k systemd.unit.info["primus.service",SubState]
+zabbix_get -s xyz.de -k systemd.unit.info&lsqb;"primus.service",SubState&rsqb;
 The result of the call should be "running".
 
 The template can ce imported straight into the server by "Template" "Configuration" "Import"
